@@ -117,11 +117,11 @@ music:
   enable: true
   title: #非吸底模式有效
     enable: true
-    show: 听听音乐
+    show: TIanZD音乐
   autoHide: true    # hide automaticaly
   server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 1776127550     #require	song id / playlist id / album id / search keyword
+  id: 8412047926     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
   theme: '#42b983'
@@ -138,10 +138,10 @@ musics:
   enable: true
   title:          #非吸底模式有效
     enable: true
-    show: 听听音乐
+    show: TIanZD音乐
   server: tencent   #require music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 1776127550     #require song id / playlist id / album id / search keyword
+  id: 8412047926     #require song id / playlist id / album id / search keyword
   fixed: false      # 开启吸底模式
   autoplay: true   # 是否自动播放
   theme: '#42b983'
