@@ -11,8 +11,9 @@ summary: >-
 tags:
   - hexo-blog-lucky
   - 博客搭建教程
+  - 转载
 categories:
-  - 博客篇
+  - Luckey博客篇
 abbrlink: d74d8b76
 reprintPolicy: cc_by
 date: 2020-09-17 00:00:00

@@ -127,15 +127,16 @@ sitemap:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: 'git'
-  repo: # git@github.com:LuckyZmj/LuckyZmj.github.io.git 
+- type: git
+  repo: root@106.14.31.180:/var/repo/hexoBlog.git
+  # repo:  git@github.com:tianzhendong/tianzhendong.github.io 
   branch: master
-- type: baidu_url_submitter
+# - type: baidu_url_submitter
 
 # baidu submit
 baidu_url_submit:
   count: 40                                      # 提交最新的一个链接
-  host: www.luckyzmj.cn     # 在百度站长平台中注册的域名
+  host: "" # www.luckyzmj.cn     # 在百度站长平台中注册的域名
   token: xxxxxxxxxxxxxxx    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt                # 文本文档的地址， 新链接会保存在此文本文档里
 

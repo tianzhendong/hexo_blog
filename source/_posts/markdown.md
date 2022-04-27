@@ -2,8 +2,21 @@
 title: markdown
 abbrlink: 96be88e3
 date: 2022-04-23 20:34:26
-tags:
 mathjax: true
+cover: true
+toc: true
+summary:  >-
+  Markdown笔记教程
+tags:
+  - markdown
+  - 效率
+categories:
+  - 效率
+reprintPolicy: cc_by
+author: TianZD
+coverImg:
+img:
+password:
 ---
 
 [toc]

@@ -10,8 +10,9 @@ summary: 使用 PicGo+jsdelivr+GitHub 打造最稳定可靠的免费图床。
 tags:
   - PicGo
   - GitHub图床
+  - 转载
 categories:
-  - 博客篇
+  - Luckey博客篇
 abbrlink: 7a46f93c
 reprintPolicy: cc_by
 date: 2020-03-15 00:00:00

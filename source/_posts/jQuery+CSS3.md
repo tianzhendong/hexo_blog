@@ -10,7 +10,9 @@ summary: '一款jQuery+CSS3的文字背景粒子动画特效，一共6种粒子�
 tags:
   - jQuery+CSS3
   - 粒子特效
+  - 转载
 categories:
+  - Luckey博客篇
   - 前端篇
 abbrlink: 4b3510a4
 reprintPolicy: cc_by

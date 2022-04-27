@@ -10,8 +10,9 @@ summary: 在Hexo部署时会默认渲染source下的所有html页面，但有时
 tags:
   - Hexo
   - 渲染绕过
+  - 转载
 categories:
-  - 博客篇
+  - Luckey博客篇
 abbrlink: 17fd92ae
 reprintPolicy: cc_by
 date: 2020-04-28 00:00:00

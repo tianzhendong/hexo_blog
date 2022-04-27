@@ -34,9 +34,9 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-envelope
-  Navi:
-    url: /tools
-    icon: fas fa-suitcase
+  # Navi:
+  #   url: /tools
+  #   icon: fas fa-suitcase
   Windows:
     url: /Windows
     icon: fas fa-desktop
@@ -85,9 +85,9 @@ menu:
 # 站点运行开始时间.
 time:
   enable: true
-  year: 2021 # 年份
+  year: 2022 # 年份
   month: 04 # 月份
-  date: 02 # 日期
+  date: 26 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -106,7 +106,7 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: false
+  enable: true
   showTitle: true
   title: 我的梦想
   text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
@@ -179,7 +179,7 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
+favicon: https://gitee.com/tianzhendong/img/raw/master/images/tian.png
 logo: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
 
 # The configuration of the second button in the home banner,
@@ -189,13 +189,13 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/ZDTian/
+  url: https://github.com/tianzhendong/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/ZDTian/
+  github:  https://github.com/tianzhendong/
   email: 1203886034@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -266,7 +266,8 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
+  # avatar: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
+  avatar: https://gitee.com/tianzhendong/img/raw/master/images/tian.png
   career: 业余码农 | 编程爱好者 | 被资本剥削者
   introduction: The harder you work, the luckier you will be 
 
@@ -400,7 +401,7 @@ valine:
   placeholder: '留下你的足迹..' # Comment Box placeholder
   background: /medias/comment_bg.png
   count: true
-  enableQQ: 16463223  # 改为自己的QQ号
+  enableQQ: 1203886034  # 改为自己的QQ号
   recordIP: true
   requiredFields: 
     - nick
@@ -473,7 +474,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/ZDTian/
+  url: https://github.com/tianzhendong/
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -504,7 +505,7 @@ googleAnalytics:
 # 添加 baidu Analytics 配置
 baiduAnalytics:
   enable: true
-  id: aaa6c944b0ed07922901d7fc571a171d
+  id: ""
 
 # 百度搜索资源平台提交链接
 baiduPush: true
@@ -703,7 +704,7 @@ banner:
 icp:
   enable: true
   url: http://www.beian.miit.gov.cn/ # 备案链接
-  text: 闽ICP备xxxxxxx号-1 # 备案信息
+  text: 沪ICP备xxxxxxx号-1 # 备案信息
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
