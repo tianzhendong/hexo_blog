@@ -13,12 +13,15 @@ menu:
       - name: 时轴
         url: /archives
         icon: fas fa-paper-plane
-      - name: 分类
-        url: /categories
-        icon: fas fa-bookmark
+      # - name: 分类
+      #   url: /categories
+      #   icon: fas fa-bookmark
       - name: 标签
         url: /tags
         icon: fas fa-tag
+  分类:
+    url: /categories
+    icon: fas fa-bookmark
   List: 
     icon: fas fa-heartbeat
     children: 
@@ -37,9 +40,9 @@ menu:
   # Navi:
   #   url: /tools
   #   icon: fas fa-suitcase
-  Windows:
-    url: /Windows
-    icon: fas fa-desktop
+  # Windows:
+  #   url: /Windows
+  #   icon: fas fa-desktop
   Friends:
     url: /friends
     icon: fas fa-link

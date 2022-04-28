@@ -128,7 +128,9 @@ sitemap:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repo: root@106.14.31.180:/var/repo/hexoBlog.git
+  repo: 
+    git1: root@106.14.31.180:/var/repo/hexoBlog.git
+    github: git@github.com:tianzhendong/tianzhendong.github.io 
   # repo:  git@github.com:tianzhendong/tianzhendong.github.io 
   branch: master
 # - type: baidu_url_submitter
