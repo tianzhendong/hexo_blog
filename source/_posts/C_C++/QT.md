@@ -12,8 +12,6 @@ tags:
   - QT
 categories:
   - C++
-  - QT
-  - IDE
 abbrlink: 8e7feb07
 reprintPolicy: cc_by
 password: 

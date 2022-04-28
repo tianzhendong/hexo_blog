@@ -11,7 +11,6 @@ tags:
   - QT
   - 编程
 categories:
-  - 编程
   - QT
 abbrlink: c4a1e2a7
 reprintPolicy: cc_by

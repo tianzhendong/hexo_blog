@@ -10,7 +10,7 @@ tags:
   - Docsify
   - 博客搭建教程
 categories:
-  - 博客篇
+  - 折腾
 reprintPolicy: cc_by
 author: TianZD
 abbrlink: 2eeac462

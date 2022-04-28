@@ -14,7 +14,6 @@ tags:
   - 网络编程
 categories:
   - 网络编程
-  - 通信
   - 转载
 abbrlink: 79a3d743
 reprintPolicy: cc_by

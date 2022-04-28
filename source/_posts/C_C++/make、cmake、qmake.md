@@ -11,7 +11,6 @@ tags:
   - make
   - 编程
 categories:
-  - make
   - 转载
 abbrlink: 84b47928
 reprintPolicy: cc_by
