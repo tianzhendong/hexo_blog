@@ -182,7 +182,7 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: https://gitee.com/tianzhendong/img/raw/master/images/tian.png
+favicon: https://gitee.com/tianzhendong/img/raw/master/images/头像.png
 logo: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
 
 # The configuration of the second button in the home banner,
@@ -270,7 +270,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   # avatar: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
-  avatar: https://gitee.com/tianzhendong/img/raw/master/images/tian.png
+  # avatar: https://gitee.com/tianzhendong/img/raw/master/images/tian.png
+  avatar: https://gitee.com/tianzhendong/img/raw/master/images/头像.png
   career: 业余码农 | 编程爱好者 | 被资本剥削者
   introduction: The harder you work, the luckier you will be 
 
