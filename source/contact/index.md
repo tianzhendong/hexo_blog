@@ -11,9 +11,9 @@ layout: "contact"
 
 ## 个人链接
 
-博客名称: TianZDの博客
+博客名称: TianZDの主页
 
-博客网址: http://106.14.31.180
+博客网址: http://tianzd.cn
 
 博客介绍: 
 
