@@ -1,5 +1,5 @@
 ---
-title: ModbusTcp
+title: ModbusTcp-转载
 author: TianZD
 top: true
 cover: true
@@ -11,7 +11,6 @@ tags:
   - 学习笔记
 categories:
   - Modbus
-  - 转载
 reprintPolicy: cc_by
 abbrlink: c7022bb7
 date: 2022-04-29 13:49:25

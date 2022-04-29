@@ -11,7 +11,6 @@ tags:
   - 内网穿透
 categories:
   - 折腾
-  - 转载
 author: TianZD
 abbrlink: c65a4228
 date: 2022-04-27 12:31:14

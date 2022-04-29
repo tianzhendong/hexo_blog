@@ -1,5 +1,5 @@
 ---
-title: 阿里云服务器部署Hexo博客
+title: 阿里云服务器部署Hexo博客-转载
 author: Luckey
 coverImg: /medias/banner/7.jpg
 top: false
@@ -11,7 +11,7 @@ tags:
   - Hexo
   - 阿里云
   - 博客
-  - 转载
+  - "转载"
 categories:
   - Luckey博客篇
 abbrlink: 19d2a4e6

@@ -9,7 +9,6 @@ summary: ssh免密码连接配置
 tags:
   - SSH
 categories:
-  - 转载
   - linux
 reprintPolicy: cc_by
 abbrlink: 7f5b723e

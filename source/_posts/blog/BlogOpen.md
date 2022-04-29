@@ -1,5 +1,5 @@
 ---
-title: LuckyBlog开源搭建教程
+title: LuckyBlog开源搭建教程-转载
 author: luckyzmj
 coverImg: /medias/banner/7.jpg
 top: true
@@ -11,7 +11,7 @@ summary: >-
 tags:
   - hexo-blog-lucky
   - 博客搭建教程
-  - 转载
+  - "转载"
 categories:
   - Luckey博客篇
 abbrlink: d74d8b76

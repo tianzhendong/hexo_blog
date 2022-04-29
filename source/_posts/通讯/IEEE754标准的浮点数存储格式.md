@@ -11,7 +11,6 @@ tags:
   - 数据格式
 categories:
   - 通信
-  - 转载
 reprintPolicy: cc_by
 abbrlink: 8cc8b422
 date: 2022-04-29 13:38:14

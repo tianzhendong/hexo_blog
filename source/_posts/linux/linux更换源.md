@@ -10,7 +10,6 @@ tags:
   - linux
 categories:
   - linux
-  - 转载
 reprintPolicy: cc_by
 abbrlink: 28825a1e
 date: 2022-04-29 13:36:19

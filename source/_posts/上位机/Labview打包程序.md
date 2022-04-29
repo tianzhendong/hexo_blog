@@ -11,9 +11,7 @@ tags:
   - 上位机
   - 打包程序
 categories:
-  - 上位机
   - labview
-  - 转载
 reprintPolicy: cc_by
 abbrlink: 2c2d93c9
 date: 2022-04-29 13:42:18

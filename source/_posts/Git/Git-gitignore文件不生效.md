@@ -1,5 +1,5 @@
 ---
-title: Git-.gitignore文件不生效
+title: Git-.gitignore文件不生效-转载
 author: TianZD
 top: true
 cover: true

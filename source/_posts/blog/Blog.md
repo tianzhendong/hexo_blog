@@ -1,5 +1,5 @@
 ---
-title: 个人博客搭建
+title: 个人博客搭建-转载
 author: Luckey
 coverImg: /medias/banner/6.jpg
 top: true
@@ -12,7 +12,7 @@ tags:
   - Hexo
   - Github
   - 博客
-  - 转载
+  - "转载"
 categories:
   - Luckey博客篇
 abbrlink: e3e08109
