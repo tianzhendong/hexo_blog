@@ -1,5 +1,5 @@
 ---
-title: Frp
+title: Frp-转载
 top: true
 cover: true
 toc: true
@@ -11,6 +11,7 @@ tags:
   - 内网穿透
 categories:
   - 折腾
+  - 转载
 author: TianZD
 abbrlink: c65a4228
 date: 2022-04-27 12:31:14
@@ -18,7 +19,7 @@ date: 2022-04-27 12:31:14
 
 ## frp服务端和客户端配置
 
-[blog.csdn.net](https://blog.csdn.net/weixin_44373340/article/details/109803722)
+转载自[blog.csdn.net](https://blog.csdn.net/weixin_44373340/article/details/109803722)
 
 ### 服务器端配置
 
@@ -189,6 +190,7 @@ https://blog.csdn.net/sinat\_29963957/article/details/83591264?depth\_1-utm\_sou
 
 
 ## FRP+远程桌面
+[查看原网页: www.cnblogs.com](https://www.cnblogs.com/chenjw-note/p/12659786.html)
 
 服务端系统：CentOS Linux release 7.6.1810 (Core)
 

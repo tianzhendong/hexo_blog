@@ -1,5 +1,5 @@
 ---
-title: socket编程
+title: socket编程-转载
 date: 2022年4月28日
 author: TianZD
 top: true
@@ -24,7 +24,7 @@ password:
 
 # socket技术详解（看清socket编程）
 
-[www.cnblogs.com](https://www.cnblogs.com/fengff/p/10984251.html)
+转自[www.cnblogs.com](https://www.cnblogs.com/fengff/p/10984251.html)
 
 https://blog.csdn.net/weixin_39634961/article/details/80236161
 

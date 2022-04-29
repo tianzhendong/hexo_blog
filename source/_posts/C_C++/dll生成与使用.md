@@ -25,7 +25,7 @@ password:
 
 ## DLL概述
 
-本节内容[来自博客](https://blog.csdn.net/elaine_bao/article/details/51784864?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_default&utm_relevant_index=12)
+概述内容[来自博客](https://blog.csdn.net/elaine_bao/article/details/51784864?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_default&utm_relevant_index=12)
 
 它们是一些独立的文件，其中包含能被可执行程序或其他dll调用来完成某项工作的函数，只有在其他模块调用dll中的函数时，dll才发挥作用。
 

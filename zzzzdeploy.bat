@@ -1,5 +1,5 @@
 @echo off
-cd C:\hexo_blog
+cd C:\Blog\hexo_blog
 hexo cl && hexo d
 
 pause

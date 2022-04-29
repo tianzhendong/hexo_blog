@@ -1,3 +1,3 @@
 @echo off
-cd C:\hexo_blog
+cd C:\Blog\hexo_blog
 git pull

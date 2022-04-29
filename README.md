@@ -1,4 +1,9 @@
+## 概述
+
+在Lucky的博客的基础上进行了简单的修改，基本上采用Lucky的模板，具体搭建过程见Lucky的博文：
+
 ## Hexo-Blog-Lucky
+
 ### demo: www.luckyzmj.cn
 
 =======
