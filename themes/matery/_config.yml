@@ -199,6 +199,7 @@ indexbtn:
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
   github:  https://github.com/tianzhendong/
+  gitee:  https://gitee.com/tianzhendong/
   email: 1203886034@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -503,7 +504,7 @@ busuanziStatistics:
 # 添加 Google Analytics 配置
 googleAnalytics:
   enable: false
-  id: UA-144253917-1
+  id: ""
 
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
