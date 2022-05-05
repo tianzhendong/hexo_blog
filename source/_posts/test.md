@@ -20,4 +20,4 @@ password:
 
 法拉盛解放拉萨的肌肤零零
 
-![image-20220505084503440](assets/test/image-20220505084503440.png)
+![image-20220505084503440](./assets/test/image-20220505084503440.png)
