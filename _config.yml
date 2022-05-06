@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://tianzhendong.github.io/
+url: http://www.tianzd.cn/
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html  # p 是自定义的前缀
@@ -129,7 +129,7 @@ sitemap:
 deploy:
 - type: git
   repo: 
-    git1: root@106.14.31.180:/var/repo/hexoBlog.git
+
     github: git@github.com:tianzhendong/tianzhendong.github.io 
   # repo:  git@github.com:tianzhendong/tianzhendong.github.io 
   branch: master
@@ -138,7 +138,7 @@ deploy:
 # baidu submit
 baidu_url_submit:
   count: 40                                      # 提交最新的一个链接
-  host: "" # www.luckyzmj.cn     # 在百度站长平台中注册的域名
+  host: www.tianzd.cn # www.luckyzmj.cn     # 在百度站长平台中注册的域名
   token: xxxxxxxxxxx    # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt                # 文本文档的地址， 新链接会保存在此文本文档里
 
