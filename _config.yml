@@ -6,7 +6,7 @@
 title: TianZD
 subtitle: 'TianZDの主页'
 description: '个人主页 | 笔记本 | 杂记'
-keywords: 'C++ 计算机 QT 效率'
+keywords: 'C++ QT Python'
 author: TianZD
 language: zh-CN
 timezone: ''
@@ -129,8 +129,8 @@ sitemap:
 deploy:
 - type: git
   repo: 
-    git1: root@106.14.31.180:/var/repo/hexoBlog.git
-    # github: git@github.com:tianzhendong/tianzhendong.github.io 
+    git1: root@www.tianzd.cn:/var/repo/hexoBlog.git
+    github: git@github.com:tianzhendong/tianzhendong.github.io 
   # repo:  git@github.com:tianzhendong/tianzhendong.github.io 
   branch: master
 # - type: baidu_url_submitter
@@ -163,4 +163,4 @@ githubEmojis:
 lazyload:
   enable: false  # 是否开启图片懒加载
   onlypost: true  # 是否只对文章的图片做懒加载
-  loadingImg: https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg # eg ./images/loading.gif
+  loadingImg: /assets/loader/orange.progress-bar-stripe-loader.svg # eg ./images/loading.gif

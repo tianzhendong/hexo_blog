@@ -22,21 +22,21 @@ menu:
   分类:
     url: /categories
     icon: fas fa-bookmark
-  List: 
-    icon: fas fa-heartbeat
-    children: 
-      - name: 音乐
-        url: /List/music
-        icon: fas fa-music
-      - name: 相册
-        url: /List/galleries
-        icon: fas fa-image
-      - name: 视频
-        url: /List/movies
-        icon: fas fa-film
-  Contact:
-    url: /contact
-    icon: fas fa-envelope
+  # List: 
+  #   icon: fas fa-heartbeat
+  #   children: 
+  #     - name: 音乐
+  #       url: /List/music
+  #       icon: fas fa-music
+  #     - name: 相册
+  #       url: /List/galleries
+  #       icon: fas fa-image
+  #     - name: 视频
+  #       url: /List/movies
+  #       icon: fas fa-film
+  # Contact:
+  #   url: /contact
+  #   icon: fas fa-envelope
   # Navi:
   #   url: /tools
   #   icon: fas fa-suitcase
@@ -90,7 +90,7 @@ time:
   enable: true
   year: 2022 # 年份
   month: 04 # 月份
-  date: 26 # 日期
+  date: 02 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -117,7 +117,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   title: #非吸底模式有效
     enable: true
     show: TIanZD音乐
@@ -138,7 +138,7 @@ music:
 # Whether to display the musics.
 # 单独的音乐页面.
 musics:
-  enable: true
+  enable: false
   title:          #非吸底模式有效
     enable: true
     show: TIanZD音乐
@@ -182,8 +182,10 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: https://gitee.com/tianzhendong/img/raw/master/images/头像.png
-logo: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
+# favicon: https://gitee.com/tianzhendong/img/raw/master/images/头像.png
+favicon: /assets/1/touxiang.png
+logo: /assets/1/TianZD22.png
+# logo: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -226,11 +228,19 @@ code:
   break: false # 代码是否折行
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
+# Reward (Donate)
+# Front-matter variable (unsupport animation).
+reward_settings:
+  # If true, reward will be displayed in every article by default.
+  enable: true
+  animation: false
+  comment: 坚持原创分享，您的支持将鼓励我继续创作更多优质内容！
+
 reward:
   enable: true
   title: 你的赏识是我前进的动力
-  wechat: https://gitee.com/tianzhendong/img/raw/master/images/weixin.png # 微信二维码图片链接
-  alipay: https://gitee.com/tianzhendong/img/raw/master/images/zhifubao.png # 支付宝二维码图片链接
+  wechat: /medias/reward/weixin.png # 微信二维码图片链接
+  alipay: /medias/reward/zhifubao.png # 支付宝二维码图片链接
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -247,7 +257,9 @@ copyright:
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
 mathjax:
   enable: true
+  # cdn: lib/mathjax/MathJax.js
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # cdn: lib/mathjax/MathJax.js
 
 # Post word count, reading duration, site total word count.
 # Before you activate, please confirm that you have installed the hexo-wordcount plugin,
@@ -272,7 +284,7 @@ clicklove:
 profile:
   # avatar: https://gitee.com/tianzhendong/img/raw/master/images/TianZD22.png
   # avatar: https://gitee.com/tianzhendong/img/raw/master/images/tian.png
-  avatar: https://gitee.com/tianzhendong/img/raw/master/images/头像.png
+  avatar: /assets/1/touxiang.png
   career: 业余码农 | 编程爱好者 | 被资本剥削者
   introduction: The harder you work, the luckier you will be 
 
@@ -329,18 +341,18 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/璀璨星空/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/动漫风景/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/二次元风/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/动漫插画/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/呆萌猫咪/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/动漫人物/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/自然风景/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/清新花卉/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/乖巧小狗/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/炫酷跑车/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/城市风光/01.jpg
-    - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/甜美食品/01.jpg
+    - /assets/galleries/璀璨星空/01.jpg
+    - /assets/galleries/动漫风景/01.jpg
+    - /assets/galleries/二次元风/01.jpg
+    - /assets/galleries/动漫插画/01.jpg
+    - /assets/galleries/呆萌猫咪/01.jpg
+    - /assets/galleries/动漫人物/01.jpg
+    - /assets/galleries/自然风景/01.jpg
+    - /assets/galleries/清新花卉/01.jpg
+    - /assets/galleries/乖巧小狗/01.jpg
+    - /assets/galleries/炫酷跑车/01.jpg
+    - /assets/galleries/城市风光/01.jpg
+    - /assets/galleries/甜美食品/01.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -464,12 +476,12 @@ minivaline:
   # Expression Url.
   # https://github.com/MiniValine/MiniValine/blob/master/.github/FAQ.md#how-to-customize-emoticons
   emoticonUrl:
-    - https://cdn.jsdelivr.net/npm/alus@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/qq@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest
+    # - https://cdn.jsdelivr.net/npm/alus@latest
+    # - https://cdn.jsdelivr.net/gh/MiniValine/qq@latest
+    # - https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest
+    # - https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest
+    # - https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest
+    # - https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest
 
 changyan:
   enable: false
@@ -536,9 +548,13 @@ libs:
     prism: /libs/prism/prism.css
 
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css
+    # fancybox: /libs/fancybox/jquery.fancybox.min.css
+    # justifiedGallery: /libs/justifiedGallery/justifiedGallery.min.css
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min.css
   js:
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js
+    # fancybox: /libs/fancybox/jquery.fancybox.min.js
+    # justifiedGallery: /libs/justifiedGallery/jquery.justifiedGallery.min.js
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js
     matery: /js/matery.js
     jquery: /libs/jquery/jquery.min.js
@@ -546,6 +562,7 @@ libs:
     masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
     aos: /libs/aos/aos.js
     scrollProgress: /libs/scrollprogress/scrollProgress.min.js
+    # lightgallery: /libs/lightgallery/lightgallery-all.min.js
     lightgallery: https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js # V1.6.11
     clicklove: /libs/others/clicklove.js
     busuanzi: /libs/others/busuanzi.pure.mini.js
@@ -572,43 +589,43 @@ featureImages:
 # - https://gitee.com/tianzhendong/img/raw/master/images/202204251307260.jpg
 # - https://gitee.com/tianzhendong/img/raw/master/images/202204251308583.jpeg
 # - https://gitee.com/tianzhendong/img/raw/master/images/202204251309761.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021815.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021853.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021744.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021707.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021440.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021332.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021245.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021129.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021038.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020939.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020832.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020704.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020616.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020502.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020407.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020319.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020152.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020120.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928015642.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928015537.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928015500.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928015238.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014929.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014831.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014727.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014621.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014458.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014319.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928014138.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013951.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013834.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013627.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013346.png
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013251.png
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928011708.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928012539.jpg
-- https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928012804.jpg
+- /assets/posts/20200928021815.jpg
+- /assets/posts/20200928021853.jpg
+- /assets/posts/20200928021744.jpg
+- /assets/posts/20200928021707.jpg
+- /assets/posts/20200928021440.jpg
+- /assets/posts/20200928021332.jpg
+- /assets/posts/20200928021245.jpg
+- /assets/posts/20200928021129.jpg
+- /assets/posts/20200928021038.jpg
+- /assets/posts/20200928020939.jpg
+- /assets/posts/20200928020832.jpg
+- /assets/posts/20200928020704.jpg
+- /assets/posts/20200928020616.jpg
+- /assets/posts/20200928020502.jpg
+- /assets/posts/20200928020407.jpg
+- /assets/posts/20200928020319.jpg
+- /assets/posts/20200928020152.jpg
+- /assets/posts/20200928020120.jpg
+- /assets/posts/20200928015642.jpg
+- /assets/posts/20200928015537.jpg
+- /assets/posts/20200928015500.jpg
+- /assets/posts/20200928015238.jpg
+- /assets/posts/20200928014929.jpg
+- /assets/posts/20200928014831.jpg
+- /assets/posts/20200928014727.jpg
+- /assets/posts/20200928014621.jpg
+- /assets/posts/20200928014458.jpg
+- /assets/posts/20200928014319.jpg
+- /assets/posts/20200928014138.jpg
+- /assets/posts/20200928013951.jpg
+- /assets/posts/20200928013834.jpg
+- /assets/posts/20200928013627.jpg
+- /assets/posts/20200928013346.png
+- /assets/posts/20200928013251.png
+- /assets/posts/20200928011708.jpg
+- /assets/posts/20200928012539.jpg
+- /assets/posts/20200928012804.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -726,7 +743,7 @@ jsDelivr:
 # 网站背景图
 background:
   enable: false
-  url: "https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210101002438.jpg"
+  url: "/assets/posts/20210101002438.jpg"
 
 # 说说 https://artitalk.js.org/
 artitalk:
