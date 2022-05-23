@@ -215,11 +215,11 @@ https://blog.csdn.net/sinat\_29963957/article/details/83591264?depth\_1-utm\_sou
 
 看到如图则成功安装，这个黑色框框不能关掉了哦
 
-![image-20220211102656844](https://gitee.com/tianzhendong/img/raw/master//images/202202111026940.png)
+![image-20220520141246091](assets/FRP内网穿透/image-20220520141246091.png)
 
 开启远程设置：
 
-![image-20220211102710275](https://gitee.com/tianzhendong/img/raw/master//images/202202111027471.png)
+![image-20220520141229737](assets/FRP内网穿透/image-20220520141229737.png)
 
 **以上，仅执行一次部署完即可**
 
@@ -227,12 +227,10 @@ https://blog.csdn.net/sinat\_29963957/article/details/83591264?depth\_1-utm\_sou
 
  使用家里电脑的远程桌面工具连接公司办公电脑
 
-![image-20220211102720319](https://gitee.com/tianzhendong/img/raw/master//images/202202111027397.png)
+![image-20220520141303941](assets/FRP内网穿透/image-20220520141303941.png)
 
 开始连接远程桌面，输入框输入：118.89.23.85:上面根据工号定义的端口
 
-![image-20220211102631951](https://gitee.com/tianzhendong/img/raw/master//images/202202111026039.png)
+![image-20220520141319078](assets/FRP内网穿透/image-20220520141319078.png)
 
 [查看原网页: www.cnblogs.com](https://www.cnblogs.com/chenjw-note/p/12659786.html)
-
-
